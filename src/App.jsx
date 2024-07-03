@@ -1,7 +1,7 @@
-import React, { useContext,useState, useRef } from 'react';
+import React, { useContext, useState, useRef } from 'react';
 import stopwatch from './assets/stopwatch.png';
 import './App.css';
-import { TimerContext } from './components/TimerContext';
+import { TimerContext } from './Components/TimerContext.jsx';
 
 function App() {
   const {DisplayTimer,Start,Stop,Reset} = useContext(TimerContext)
